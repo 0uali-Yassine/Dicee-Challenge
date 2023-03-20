@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <style type="text/tailwindcss">
+      @layer base {
+        h1,button{
+          font-family: 'Lobster', cursive;
+        }
+        p,footer{
+          font-family: 'Indie Flower', cursive;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-[#393E46]">
+
+    <div class="container w-[70%] m-auto text-center">
+      <h1 class="m-[30px] drop-shadow-[5px_0_#232931] text-[8rem] text-[#4ECCA3]">Strat The game</h1>
+
+      <div class="dice text-center inline-block">
+        <p class=" player1 text-[2rem] text-[#4ECCA3]">Player 1</p>
+        <img class="img1 w-[80%]" src="">
+      </div>
+
+      <div class="dice text-center inline-block">
+        <p class="player2 text-[2rem] text-[#4ECCA3]">Player 2</p>
+        <img class="img2 w-[80%]" src="">
+      </div>
+
+    </div>
+
+    <button class="w-[100px] h-[40px] ml-[46%] mt-[20px] px-[10px] py-[5px] text-[#393E46] text-cente text-[1.3rem] font-medium bg-[#4ECCA3] rounded-md hover:text-[#4ECCA3] hover:bg-[#393E46] hover:border-[1px] hover:border-[#4ECCA3]">Play</button>
+  </body>
+  <footer class="mt-[5%] text-[#EEEEEE] text-center">
+    🎲 The Dicee Game  🎲
+  </footer>
+  <script src="/index.js"></script>
+</html>
